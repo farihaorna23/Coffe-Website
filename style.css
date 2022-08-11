@@ -52,6 +52,14 @@ a:link {
   font-size: 1.5rem;
 }
 
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: rgb(119, 117, 117);
+}
+
 .login-shoppingCart {
   display: flex;
   justify-content: space-between;
