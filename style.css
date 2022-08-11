@@ -33,7 +33,6 @@ body {
 }
 
 .nav-container {
-  border: 1px solid black;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -43,9 +42,7 @@ body {
 }
 
 .nav-links ul li {
-  list-style: none;
-  display: inline-block;
-  padding-right: 1.5rem;
+  display: none;
 }
 
 a:link {
@@ -70,4 +67,12 @@ a:link {
 .Trade {
   font-family: "Oswald", sans-serif;
   font-size: 3rem;
+}
+
+@media screen and (min-width: 700px) {
+  .nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 1.5rem;
+  }
 }
