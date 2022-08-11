@@ -28,3 +28,22 @@ body {
   width: 1.5rem;
   height: 1.5rem;
 }
+
+.nav-container {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5.5rem;
+  padding: 2rem;
+}
+
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 1rem;
+}
+
+a:link {
+  text-decoration: none;
+}
