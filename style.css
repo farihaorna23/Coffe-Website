@@ -81,7 +81,7 @@ a:link {
 .banner-content {
   display: flex;
   flex-direction: column;
-  padding-top: 4.5rem;
+  padding-top: 5.5rem;
   padding-left: 2rem;
 }
 
@@ -93,19 +93,21 @@ a:link {
 }
 
 .banner-info {
+  /* still acting like block */
   display: inline;
   color: white;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-bottom: 3rem;
 }
 
 .banner-button {
   color: white;
-  border: 0.5rem solid red;
-}
-
-h2 {
-  display: inline;
+  display: inline-block;
+  /* had to do this because banner-button, banner-info, banner-header  were acting like a block element despite display:inline */
+  background-color: red;
+  text-align: center;
+  padding: 0.3rem 0rem;
+  width: 16rem;
 }
 
 @media screen and (min-width: 700px) {
@@ -121,5 +123,15 @@ h2 {
 
   .banner-content {
     padding: 11rem;
+  }
+
+  .banner-button {
+    padding: 1rem;
+    width: 20rem;
+  }
+
+  .banner-info {
+    font-size: 2rem;
+    padding-bottom: 3rem;
   }
 }
