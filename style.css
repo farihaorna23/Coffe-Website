@@ -78,10 +78,34 @@ a:link {
   background-size: cover;
 }
 
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  padding-top: 4.5rem;
+  padding-left: 2rem;
+}
+
 .banner-header {
   font-family: "Oswald", sans-serif;
   font-size: 2rem;
+  padding-bottom: 2rem;
   color: white;
+}
+
+.banner-info {
+  display: inline;
+  color: white;
+  font-size: 2rem;
+  padding-bottom: 3rem;
+}
+
+.banner-button {
+  color: white;
+  border: 0.5rem solid red;
+}
+
+h2 {
+  display: inline;
 }
 
 @media screen and (min-width: 700px) {
@@ -93,5 +117,9 @@ a:link {
 
   .banner-header {
     font-size: 4rem;
+  }
+
+  .banner-content {
+    padding: 11rem;
   }
 }
