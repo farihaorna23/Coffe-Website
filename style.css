@@ -23,7 +23,6 @@ body {
   background-color: #1b293b;
   color: white;
   font-family: "Oswald", sans-serif;
-  /* font-family: "Roboto Condensed", sans-serif; */
 }
 
 .icons {
@@ -71,13 +70,17 @@ a:link {
 
 .banner {
   background-image: url(img/coffee.jpeg);
-  min-height: 75vh;
+  width: 100%;
   width: 100vw;
+  height: 75vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .banner-header {
   font-family: "Oswald", sans-serif;
-  font-size: 4rem;
+  font-size: 2rem;
   color: white;
 }
 
@@ -86,5 +89,9 @@ a:link {
     list-style: none;
     display: inline-block;
     padding-right: 1.5rem;
+  }
+
+  .banner-header {
+    font-size: 4rem;
   }
 }
