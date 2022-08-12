@@ -106,7 +106,10 @@ a:link {
   /* had to do this because banner-button, banner-info, banner-header  were acting like a block element despite display:inline */
   background-color: red;
   text-align: center;
+  /* font size isn't working. Can't make it smaller */
+  /* font-size: 0.2rem; */
   padding: 0.3rem 0rem;
+  border-radius: 0.5rem;
   width: 16rem;
 }
 
