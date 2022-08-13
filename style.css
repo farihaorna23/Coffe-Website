@@ -70,9 +70,9 @@ a:link {
 
 .banner {
   background-image: url(img/coffee.jpeg);
-  width: 100%;
+  /* width: 100%; */
   width: 100vw;
-  height: 75vh;
+  height: 72vh;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -100,7 +100,7 @@ a:link {
   padding-bottom: 3rem;
 }
 
-.banner-button {
+.btn {
   color: white;
   display: inline-block;
   /* had to do this because banner-button, banner-info, banner-header  were acting like a block element despite display:inline */
@@ -111,6 +111,38 @@ a:link {
   padding: 0.3rem 0rem;
   border-radius: 0.5rem;
   width: 16rem;
+}
+
+.btn:visited {
+  color: white;
+}
+
+.sec-2 {
+  width: 100%;
+  height: 72vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.phone-img {
+  width: 100vw;
+}
+
+.sec2-text {
+  display: flex;
+  flex-direction: column;
+  padding: 9rem;
+}
+
+.sec2-header {
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  padding-bottom: 2.5rem;
+}
+
+.sec2-content {
+  font-size: 1.5rem;
+  padding-bottom: 2.5rem;
 }
 
 @media screen and (min-width: 700px) {
@@ -128,7 +160,7 @@ a:link {
     padding: 11rem;
   }
 
-  .banner-button {
+  .btn {
     padding: 1rem;
     width: 20rem;
   }
@@ -136,5 +168,21 @@ a:link {
   .banner-info {
     font-size: 2rem;
     padding-bottom: 3rem;
+  }
+
+  .sec2-header {
+    font-size: 4rem;
+  }
+
+  .sec2-content {
+    font-size: 2rem;
+  }
+
+  .phone-img {
+    flex: 1.5;
+  }
+
+  .sec2-text {
+    flex: 1;
   }
 }
