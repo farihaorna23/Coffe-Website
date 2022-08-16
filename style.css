@@ -177,6 +177,79 @@ hr {
   margin-left: 0.5rem;
 }
 
+.sec-4 {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec-4-header {
+  text-align: center;
+}
+
+.sec-4-headline {
+  font-size: 4.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.sec-4-header-content {
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.sec-4-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.card {
+  width: 40%;
+  border-radius: 1rem;
+  height: 100%;
+}
+
+.coffee-bag-img {
+  height: 50%;
+  width: 100%;
+}
+
+.cb-content-container {
+  border: 1px solid rgb(202, 202, 202);
+  padding: 2rem;
+}
+
+.cb-headline {
+  font-size: 2rem;
+  padding-bottom: 3rem;
+  font-weight: bold;
+}
+
+.cb-content {
+  font-size: 1rem;
+  padding-bottom: 2rem;
+}
+
+.price {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.cb-button {
+  margin-top: 1rem;
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-color: red;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
 @media screen and (min-width: 700px) {
   .nav-links ul li {
     list-style: none;
