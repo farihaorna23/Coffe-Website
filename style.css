@@ -367,6 +367,48 @@ hr {
   font-size: 1.5rem;
 }
 
+.sec-8 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sec-8-img {
+  width: 100%;
+}
+
+.sec-8-content-container {
+  width: 100%;
+}
+
+.sec-8-content-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10rem 3rem;
+}
+
+.sec-8-headline {
+  font-size: 4.5rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+
+.sec-8-content {
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+.sec-8-btn {
+  display: inline-block;
+  width: 40%;
+  background-color: red;
+  /* font-size not changing */
+  font-size: 0.5rem;
+  color: white;
+  padding: 1rem 1rem;
+  border-radius: 0.5rem;
+}
+
 @media screen and (min-width: 700px) {
   .nav-links ul li {
     list-style: none;
@@ -447,5 +489,18 @@ hr {
 
   .small-card-sec7 {
     width: 25%;
+  }
+
+  .sec-8-img {
+    flex: 1;
+  }
+
+  .sec-8-content-container {
+    flex: 1;
+  }
+
+  .sec-8-btn {
+    width: 30%;
+    padding: 1rem 4rem;
   }
 }
