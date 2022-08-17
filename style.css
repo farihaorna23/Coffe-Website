@@ -253,6 +253,32 @@ hr {
   font-size: 0.1rem;
 }
 
+.sec-5 {
+  margin-top: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: #f9f9f9;
+  padding: 6rem 6rem;
+  gap: 3rem;
+}
+
+.sm-card {
+  flex: 1;
+  height: 100%;
+  text-align: center;
+}
+
+.sm-card-headline {
+  padding-top: 2rem;
+  font-size: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.sm-card-content {
+  font-size: 1.5rem;
+}
+
 @media screen and (min-width: 700px) {
   .nav-links ul li {
     list-style: none;
