@@ -78,18 +78,343 @@ a:hover {
 
 .banner {
   background-image: url(img/coffee.jpeg);
-  width: 100%;
+  /* width: 100%; */
   width: 100vw;
-  height: 75vh;
+  height: 72vh;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5.5rem;
+  padding-left: 2rem;
+}
+
 .banner-header {
   font-family: "Oswald", sans-serif;
   font-size: 2rem;
+  padding-bottom: 2rem;
   color: white;
+}
+
+.banner-info {
+  /* still acting like block */
+  display: inline;
+  color: white;
+  font-size: 1.5rem;
+  padding-bottom: 3rem;
+}
+
+.btn {
+  color: white;
+  display: inline-block;
+  /* had to do this because banner-button, banner-info, banner-header  were acting like a block element despite display:inline */
+  background-color: red;
+  text-align: center;
+  /* font size isn't working. Can't make it smaller */
+  /* font-size: 0.2rem; */
+  padding: 0.3rem 0rem;
+  border-radius: 0.5rem;
+  width: 16rem;
+}
+
+.btn:visited {
+  color: white;
+}
+
+.sec-2 {
+  width: 100%;
+  /* height: 72vh; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.phone-img {
+  width: 100vw;
+  height: 100%;
+}
+
+.sec2-text {
+  display: flex;
+  flex-direction: column;
+  padding: 9rem;
+}
+
+.sec2-header {
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  padding-bottom: 2.5rem;
+}
+
+.sec2-content {
+  font-size: 1.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.sec-3 {
+  width: 100vw;
+  background-color: #f9f2e7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem;
+}
+
+.sec3-headline {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.certificate-container {
+  display: flex;
+  align-items: center;
+}
+
+hr {
+  width: 6rem;
+  height: 0.2rem;
+  background-color: black;
+  margin-left: 0.5rem;
+}
+
+.fa-certificate {
+  margin-left: 0.5rem;
+}
+
+.sec-4 {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec-4-header {
+  text-align: center;
+}
+
+.sec-4-headline {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.sec-4-header-content {
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.sec-4-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.card {
+  width: 80%;
+  border-radius: 1rem;
+  height: 100%;
+}
+
+.coffee-bag-img {
+  height: 50%;
+  width: 100%;
+}
+
+.cb-content-container {
+  border: 1px solid rgb(202, 202, 202);
+  padding: 2rem;
+}
+
+.cb-headline {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+  font-weight: bold;
+}
+
+.cb-content {
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.cb-button {
+  margin-top: 1rem;
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-color: red;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  /* font-size not working */
+  font-size: 0.1rem;
+}
+
+.sec-5 {
+  margin-top: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: #f9f9f9;
+  padding: 8rem 6rem;
+  gap: 3rem;
+}
+
+.sm-card {
+  flex: 1;
+  height: 100%;
+  text-align: center;
+}
+
+.sm-card-headline {
+  padding-top: 2rem;
+  font-size: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.sm-card-content {
+  font-size: 1.5rem;
+}
+
+.sec-6 {
+  width: 100%;
+  background-color: rgb(238, 56, 56);
+  text-align: center;
+  padding: 6rem;
+}
+
+.sec-6-headline {
+  color: white;
+  font-size: 3rem;
+  padding-bottom: 2.5rem;
+}
+
+.sec-6-content {
+  color: white;
+  font-size: 1.8rem;
+  padding-bottom: 1.8rem;
+}
+
+.sec-6-btn {
+  color: black;
+  display: inline-block;
+  border-radius: 0.5rem;
+  width: 40%;
+  background-color: white;
+  padding: 1rem;
+}
+
+.sec-7 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+.sec-7-header {
+  font-size: 4rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.sec-7-cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.small-card-sec7 {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  border: 0.5px solid rgb(189, 183, 183);
+  border-radius: 1rem;
+}
+
+.small-card-sec-7-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.5px solid rgb(189, 183, 183);
+  padding: 1rem;
+}
+
+.profile_pic {
+  width: 5%;
+  border-radius: 100%;
+}
+
+.tweet-content {
+  font-size: 1.5rem;
+  padding: 2rem;
+  padding-bottom: 10rem;
+}
+
+.coffee-bag-pic {
+  height: 60%;
+  padding-bottom: 1rem;
+}
+
+.username {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.sec-8 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sec-8-img {
+  width: 100%;
+}
+
+.sec-8-content-container {
+  width: 100%;
+}
+
+.sec-8-content-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10rem 3rem;
+}
+
+.sec-8-headline {
+  font-size: 4.5rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+
+.sec-8-content {
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+.sec-8-btn {
+  display: inline-block;
+  width: 40%;
+  background-color: red;
+  /* font-size not changing */
+  font-size: 0.5rem;
+  color: white;
+  padding: 1rem 1rem;
+  border-radius: 0.5rem;
 }
 
 @media screen and (min-width: 700px) {
@@ -101,5 +426,89 @@ a:hover {
 
   .banner-header {
     font-size: 4rem;
+  }
+
+  .banner-content {
+    padding: 11rem;
+  }
+
+  .btn {
+    padding: 1rem;
+    width: 20rem;
+  }
+
+  .banner-info {
+    font-size: 2rem;
+    padding-bottom: 3rem;
+  }
+
+  .sec2-header {
+    font-size: 4rem;
+  }
+
+  .sec2-content {
+    font-size: 2rem;
+  }
+
+  .phone-img {
+    flex: 1.5;
+  }
+
+  .sec2-text {
+    flex: 1;
+  }
+
+  .sec-3 {
+    padding: 8rem;
+  }
+
+  .sec3-headline {
+    font-size: 3.5rem;
+    padding-bottom: 1rem;
+  }
+
+  hr {
+    width: 12rem;
+  }
+  .sec-4-headline {
+    font-size: 4.5rem;
+  }
+
+  .cb-headline {
+    font-size: 2rem;
+    padding-bottom: 3rem;
+  }
+
+  .cb-content {
+    padding-bottom: 2rem;
+  }
+
+  .price {
+    font-size: 2.5rem;
+  }
+
+  .sec-6-btn {
+    width: 15%;
+  }
+
+  .card {
+    width: 40%;
+  }
+
+  .small-card-sec7 {
+    width: 25%;
+  }
+
+  .sec-8-img {
+    flex: 1;
+  }
+
+  .sec-8-content-container {
+    flex: 1;
+  }
+
+  .sec-8-btn {
+    width: 30%;
+    padding: 1rem 4rem;
   }
 }
