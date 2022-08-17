@@ -157,7 +157,7 @@ a:link {
 }
 
 .sec3-headline {
-  font-size: 1.5rem;
+  font-size: 2rem;
   padding-bottom: 1rem;
 }
 
@@ -167,7 +167,7 @@ a:link {
 }
 
 hr {
-  width: 4.5rem;
+  width: 6rem;
   height: 0.2rem;
   background-color: black;
   margin-left: 0.5rem;
@@ -190,7 +190,7 @@ hr {
 }
 
 .sec-4-headline {
-  font-size: 4.5rem;
+  font-size: 3rem;
   font-weight: bold;
   margin-bottom: 1rem;
 }
@@ -209,7 +209,7 @@ hr {
 }
 
 .card {
-  width: 40%;
+  width: 80%;
   border-radius: 1rem;
   height: 100%;
 }
@@ -259,7 +259,7 @@ hr {
   flex-wrap: wrap;
   width: 100%;
   background-color: #f9f9f9;
-  padding: 6rem 6rem;
+  padding: 8rem 6rem;
   gap: 3rem;
 }
 
@@ -277,6 +277,34 @@ hr {
 
 .sm-card-content {
   font-size: 1.5rem;
+}
+
+.sec-6 {
+  width: 100%;
+  background-color: rgb(238, 56, 56);
+  text-align: center;
+  padding: 6rem;
+}
+
+.sec-6-headline {
+  color: white;
+  font-size: 3rem;
+  padding-bottom: 2.5rem;
+}
+
+.sec-6-content {
+  color: white;
+  font-size: 1.8rem;
+  padding-bottom: 1.8rem;
+}
+
+.sec-6-btn {
+  color: black;
+  display: inline-block;
+  border-radius: 0.5rem;
+  width: 40%;
+  background-color: white;
+  padding: 1rem;
 }
 
 @media screen and (min-width: 700px) {
@@ -333,7 +361,7 @@ hr {
     width: 12rem;
   }
   .sec-4-headline {
-    font-size: 3rem;
+    font-size: 4.5rem;
   }
 
   .cb-headline {
@@ -347,5 +375,13 @@ hr {
 
   .price {
     font-size: 2.5rem;
+  }
+
+  .sec-6-btn {
+    width: 15%;
+  }
+
+  .card {
+    width: 40%;
   }
 }
