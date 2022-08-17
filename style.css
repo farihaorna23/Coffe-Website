@@ -307,6 +307,65 @@ hr {
   padding: 1rem;
 }
 
+.sec-7 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+.sec-7-header {
+  font-size: 4rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.sec-7-cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.small-card-sec7 {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  border: 0.5px solid rgb(189, 183, 183);
+  border-radius: 1rem;
+}
+
+.small-card-sec-7-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.5px solid rgb(189, 183, 183);
+  padding: 1rem;
+}
+
+.profile_pic {
+  width: 5%;
+  border-radius: 100%;
+}
+
+.tweet-content {
+  font-size: 1.5rem;
+  padding: 2rem;
+  padding-bottom: 10rem;
+}
+
+.coffee-bag-pic {
+  height: 60%;
+  padding-bottom: 1rem;
+}
+
+.username {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
 @media screen and (min-width: 700px) {
   .nav-links ul li {
     list-style: none;
